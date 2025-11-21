@@ -3,7 +3,7 @@
  * @author Ben Bearth, Benji Godo
  * Created on: 11/21/2025
  * Modified on: 11/21/2025
- * Description: uses a recursive method to reverse a string
+ * Description: uses a recursive method along with a helper method to reverse a string
  */
 
 public class Lab12Prob03 {
