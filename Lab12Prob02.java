@@ -16,8 +16,9 @@ public class Lab12Prob02 {
 		if (str.length() == 1) {
 			return str;
 		} else {
-			return String.format("%s%s", str.charAt(str.length() - 1), reverseString(str.substring(0, str.length() - 1)));
+			return str.charAt(str.length() - 1) + reverseString(str.substring(0, str.length() - 1));
 		}
 	}
 
 }
+
